@@ -15,7 +15,7 @@ This is my personal learning journey. It serves as a step by step overview of ho
 
 Here's the Repository structure: 
 
-'''text
+```text
 git-and-github-learning-journey/
 ├── theory/            
 │   ├── module01/     #Introduction to Version control systems
@@ -32,20 +32,21 @@ git-and-github-learning-journey/
 │   └── practice05    # #Trying it on a Front-end project
 ├── .gitignore
 └── README.md
-'''
+```
 
-## Project milestones
+# Project milestones
 --------REMINDER------------Remember to add this before making repo public----------------
 
-## Resources and Tools used:
-- Books: Beginning_Git_and_GitHub_2nd_Ed_by_Mariot_Tsitoara
-- Study Guide from 'https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md'
-- Operating System: Kali Linux
-- Code editor: VS code
-- GitHub and Git
-- Command line: Terminal
+# Resources and Tools used:
+*  Books: Beginning_Git_and_GitHub_2nd_Ed_by_Mariot_Tsitoara
+*  Study Guide from `https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md`
+*  Operating System: Kali Linux
+*  Code editor: VS code
+*  GitHub and Git
+*  Command line: Terminal
 
-##Disclaimer!
+# Disclaimer!!!
+
 This is an active study overview and a work in progress as I continue learning.
 
 
