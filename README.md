@@ -4,13 +4,13 @@ Version Control Systems(VCS) are important for tracking code changes and working
 This is my personal learning journey. It serves as a step by step overview of how I learned different concepts, documenting both the theory behind how things work and the hands-on practice I do along the way.
 
 #Topics Covered:
-*Intro to VCS
-*Types of VCS
-*Intro to Git
-*Learn Git features
-*Intro to GitHub
-*Learn GitHub features
-*Hands-on practice
+* Intro to VCS
+* Types of VCS
+* Intro to Git
+* Learn Git features
+* Intro to GitHub
+* Learn GitHub features
+* Hands-on practice
 
 Here's the Repository structure: 
 
