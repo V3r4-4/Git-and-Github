@@ -1,6 +1,6 @@
-# Self-Learning Foundations of Git and GitHub :slight_smile:
+# Self-Learning Foundations of Git and GitHub
 
-I'm a tech student navigating through the world of Version Control Systems.
+Hello there :wave:. I'm a tech student navigating through the world of Version Control Systems.
 Version Control Systems(VCS) are important for tracking code changes and working together on projects, making them essential tools for me to learn as I build my technical skills.
 This is my personal learning journey. It serves as a step by step overview of how I learned different concepts, documenting both the theory behind how things work and the hands-on practice I do along the way.
 
