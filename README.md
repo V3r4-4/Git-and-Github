@@ -38,12 +38,12 @@ git-and-github-learning-journey/
 --------REMINDER------------Remember to add this before making repo public----------------
 
 ## Resources and Tools used:
--Books: Beginning_Git_and_GitHub_2nd_Ed_by_Mariot_Tsitoara
--Study Guide from 'https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md'
--Operating System: Kali Linux
--Code editor: VS code
--GitHub and Git
--Command line: Terminal
+- Books: Beginning_Git_and_GitHub_2nd_Ed_by_Mariot_Tsitoara
+- Study Guide from 'https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md'
+- Operating System: Kali Linux
+- Code editor: VS code
+- GitHub and Git
+- Command line: Terminal
 
 ##Disclaimer!
 This is an active study overview and a work in progress as I continue learning.
