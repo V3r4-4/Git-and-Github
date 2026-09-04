@@ -41,12 +41,6 @@ git-and-github-learning-journey/
 <br>
 <br>
 
-#### Project milestones: :smile:
-
---------REMINDER------------Remember to add this before making repo public----------------
-
-<br>
-<br>
 
 #### Resources and Tools used:
 
