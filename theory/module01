@@ -1,1 +1,12 @@
-Introduction to Version Control Systems
+A certain software development company has been given a tender to create a Digital Library Services System for Louis Library.
+The software development Life Cycle begins. After planing, and designing, the development of the system begins.
+Several people are involved in development: The developers, the programmers, the UI/UX designers
+
+
+Version Control Systems; What to cover:
+    Problems Version Control Systems solve
+    The evolution from local Version Control Systems to distributed Version Control Systems
+    The architecture of git
+    The work flow
+    Advanced Operations
+    Hands-on
