@@ -17,6 +17,7 @@ This is my personal learning journey. It serves as a step by step overview of ho
   
 <br>
 <br>
+
 #### Here's the Repository structure:
 
 ```text
@@ -40,12 +41,6 @@ git-and-github-learning-journey/
 <br>
 <br>
 
-#### Project milestones: :smile:
-
---------REMINDER------------Remember to add this before making repo public----------------
-
-<br>
-<br>
 
 #### Resources and Tools used:
 
