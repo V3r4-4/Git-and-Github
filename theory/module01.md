@@ -24,7 +24,7 @@ I use features from Version Control System like git and GitHub. In this Module I
 # Problems developers faced that led to development of Version Control Systems?
 
 In the past, developers faced many problems in managing the project code. At first, developers saved their work in their local computers, which meant that if the computer was damaged the all changes and project was gone.
-They had to manually create a copy of a file every time they made a change. The problem was the confusion they went through to identify which file version had specific change, What changes were made and who made them and at what time. This made the development process even slower. Developers could overwrite each each others work. The developers passed the work they've worked on to other teammates using a floppydisk/CD.That is what was refered to as Local Version Control System. 
+They had to manually create a copy of a file every time they made a change. The problem was the confusion they went through to identify which file version had specific change, What changes were made and who made them and at what time. This made the development process even slower. Developers could overwrite each each others work. The developers passed the work they've worked on to other teammates using a floppy disk/CD.That is what was referred to as Local Version Control System. 
 Then it evolved to Centralized Version Control System where the project and changes were stored in one server. Incase of failure of the server, that meant the loss of the whole project and its changes.
 So how did the team Lead review the code of a developer before approving it? The developer would either print it out on paper or the team lead had walk to the developers work station to review their work.
 
@@ -60,7 +60,7 @@ For code reviews where team leads had to review a developers code and to find ch
 
 
 #### distributed Version Control System
-        - In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so incase of crashing of either of them, There is backup of the project.
+        - In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so in case of crashing of either of them, There is backup of the project.
         - Each Developer gets to work on their own branch and later on the branches are merged.
     
 # Version Control Systems created in the past before git and GitHub
