@@ -1,4 +1,4 @@
-Introduction to Version Control Systems
+#Introduction to Version Control Systems
 They are used to track changes and to manage code.
 -Before further explanation let's take a look at where they are needed:
     -A school library needs a digital library services system for learners to access E-books, To renew borrowed books remotely and to check out the library catalogue. The school management system approaches a Software Development Company, they get to an agreement and the company is given five days to present a prototype of how the system will look like.
@@ -55,10 +55,24 @@ They are used to track changes and to manage code.
 
 
     -Distributed Version Control System
+        -In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so incase of crashing of either of them, There is backup of the project.
+        -Each Developer gets to work on their own branch and later on the branches are merged.
 
-Question: When did the project start getting saved in the central server?
--What are some of the version Control systems developers made back in the days to solve 'em problems?
+-What are some of the version Control systems developers made back in the days to solve problems?
+- 
     -Source Code Control System (SCCS)
+    - It's a local Version Control System
+    - Twas created in Bell Labs
+    - It ran on a single machine and tracked changes to individual files by storing original files and "deltas" differences.
+    - Replaced manually renaming backing up files and allowed developers to revert an individual file to an earlier date. MEANING: When we mentioned that everytime developers made changes  to a file, they copied the previous files then made changes to one of the files.
+    
+
+MEANING OF REVERSE DELTAS - IN THE REVISED CONTROL SYSTEMS IT STATES THAT IT STORED THE CURRENT VERSION OF THE FILE AND THE REVERSE DELTAS. SO DOES THAT MEAN IT ONLY KEPT THE DIFFERENCES BETWEEN THE OLDER AND THE NEWER VERSION?
+
+
     -Apache Subversion(SVN)
+    -It is a centralized VCS
+    -It commit the entire directory as a/in a single commit in the  central server.
+    
     - Concurrent Version Control(CVC) - Multiple people would make multiple changes to one file
     - Bitkeeper- It insired the creation of git. Git works same as Bitkeeper.
