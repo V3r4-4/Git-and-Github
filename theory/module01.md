@@ -59,7 +59,7 @@ For code reviews where team leads had to review a developers code and to find ch
         - Incase of failure of the server all changes, files and project got lost.
 
 
-#### distributed Version Control System
+#### Distributed Version Control System
         - In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so in case of crashing of either of them, There is backup of the project.
         - Each Developer gets to work on their own branch and later on the branches are merged.
     
