@@ -16,12 +16,8 @@ Version Control System is a software the tracks Source code changes and manages 
         -Once done they submit a pull request and Team Lead checks if it meets security standards. Team Lead approves both their works and merges both branches to the main branch.
         -The front-end is now complete. They test it. They find it works, they show it to client and receives 20% of full amount.
 
-# How does that relate with Version Control Systems?
 
-I mentioned pulling of repository, Committing, Working in a branch, Merging branches. How do I do the above?
-I use features from Version Control System like git and GitHub. In this Module I will talk about the importance of Version control systems, Why we need them and what problems they solve.
-
-# Problems developers faced that led to development of Version Control Systems?
+#### Problems developers faced that led to development of Version Control Systems?
 
 In the past, developers faced many problems in managing the project code. At first, developers saved their work in their local computers, which meant that if the computer was damaged the all changes and project was gone.
 They had to manually create a copy of a file every time they made a change. The problem was the confusion they went through to identify which file version had specific change, What changes were made and who made them and at what time. This made the development process even slower. Developers could overwrite each each others work. The developers passed the work they've worked on to other teammates using a floppy disk/CD.That is what was referred to as Local Version Control System. 
@@ -29,7 +25,7 @@ Then it evolved to Centralized Version Control System where the project and chan
 So how did the team Lead review the code of a developer before approving it? The developer would either print it out on paper or the team lead had walk to the developers work station to review their work.
 
 
-# How Version Control Systems solved the problems.
+#### How Version Control Systems solved the problems.
 
 How does it solve Developers overwriting each others work - Two developers edited the same work on the drive.
 Version control system like git enabled each developer to have their own branch. During merging if there's any overwriting git highlights a conflict.
@@ -46,7 +42,7 @@ Backing up a project in case the server crashed, In both local and centralized i
 For code reviews where team leads had to review a developers code and to find changes, the team lead back then has to read thousands of lines of code to see changes. In git, It highlights changes made, If deletion was made it is highlighted in red and if something was added, it is highlighted in green.
 
 
-# Evolution of Version Control Systems.
+#### Evolution of Version Control Systems.
 
 #### Local Version Control System
         - There was a database in a single machine(computer) that tracked any changes made to files in that machine.
@@ -63,7 +59,7 @@ For code reviews where team leads had to review a developers code and to find ch
         - In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so in case of crashing of either of them, There is backup of the project.
         - Each Developer gets to work on their own branch and later on the branches are merged.
     
-# Version Control Systems created in the past before git and GitHub
+#### Version Control Systems created in the past before git and GitHub
 
 #### Source Code Control System (SCCS)
     - It's a local Version Control System
@@ -71,10 +67,6 @@ For code reviews where team leads had to review a developers code and to find ch
     - It ran on a single machine and tracked changes to individual files by storing original files and "deltas" differences.
     - Replaced manually renaming backing up files and allowed developers to revert an individual file to an earlier date. MEANING: When we mentioned that every time developers made changes  to a file, they copied the previous files then made changes to one of the files.
     
-
-MEANING OF REVERSE DELTAS - IN THE REVISED CONTROL SYSTEMS IT STATES THAT IT STORED THE CURRENT VERSION OF THE FILE AND THE REVERSE DELTAS. SO DOES THAT MEAN IT ONLY KEPT THE DIFFERENCES BETWEEN THE OLDER AND THE NEWER VERSION?
-
-
 #### Apache Subversion(SVN)
     -It is a centralized VCS
     -It commit the entire directory as a/in a single commit in the  central server.
