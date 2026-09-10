@@ -4,18 +4,27 @@ Version Control System is a software the tracks Source code changes and manages 
 
 # A simple example of how the system development cycle works
 
-    -A school library needs a digital library services system for learners to access E-books, To renew borrowed books remotely and to check out the library catalogue. The school management system approaches a Software Development Company, they get to an agreement and the company is given five days to present a prototype of how the system will look like.
-    -The Company presents the prototype and the school management likes it. They agree that payments will be done per milestones (ie 20% for front-end completion). The company is given a deadline. Immediately, the company plans the development process.
-    -The development team is given the resources needed. System analyst and project Manager assigns tasks to teams(e.g Software engineers, Database schema, Back-end developers e.t.c). They choose how the project will be managed whether it is through Monorepo(Whole application in one Repository) or Micro-services(An application divided into multiple parts which are stored in multiple repositories). How the application runs monolithic(One big running application) or micro-services(Many small services communicating via a network). And after planning, the development process begins.
-    -Each developer and programmer is given a task. Let's consider how the front-end team manages their code if the project was to run through micro-services. 
-        -Developer A is working on HTML and CSS.
-        -Developer B is working on JavaScript.
-        -Both developers will pull the Front-end Repository to their computers.
-        -Developer A creates his part  in their branch.
-        -Developer B also creates his part in their branch.
-        -Once done they submit a pull request and Team Lead checks if it meets security standards. Team Lead approves both their works and merges both branches to the main branch.
-        -The front-end is now complete. They test it. They find it works, they show it to client and receives 20% of full amount.
+    A school library needs a digital system so students can access e-books, renew borrowed books remotely, and search the library catalog. School management reaches out to a software development company, and they agree on a deal: the company gets five days to present a working prototype.
 
+    The company presents the prototype, and the school loves it. They set a deadline and agree on milestone-based payments (like 20% upon front-end completion). The company kicks off planning immediately.
+
+    The development team gets their resources, while the system analyst and project manager assign tasks to team members (software engineers, back-end developers, database engineers, etc.). They decide on the project setup—choosing between a single repository or multiple repositories for code storage, and a monolithic or microservices setup for the app architecture.
+
+    Once planning wraps up, coding begins:
+
+    Developer A builds the library catalog search interface.
+
+    Developer B builds the book renewal dashboard.
+
+    Both developers pull the front-end repository to their local machines.
+
+    Developer A works on his component in a feature branch.
+
+    Developer B works on his component in a separate feature branch.
+
+    When finished, both submit pull requests. The team lead reviews the code for security and quality, runs tests, approves the work, and merges both branches into the main branch.
+
+    The front-end phase is finished! After a quick client demo, the company collects their 20% milestone payment.
 
 # Problems developers faced that led to development of Version Control Systems?
 
