@@ -17,7 +17,7 @@ Version Control System is a software the tracks Source code changes and manages 
         -The front-end is now complete. They test it. They find it works, they show it to client and receives 20% of full amount.
 
 
-#### Problems developers faced that led to development of Version Control Systems?
+# Problems developers faced that led to development of Version Control Systems?
 
 * Saved their work in their local computers, which meant that if the computer was damaged the all changes and project was gone.
 * Manually created a copy of a file every time they made a change. The problem was the confusion they went through to identify which file version had specific change, What changes were made and who made them and at what time. This made the development process even slower.
@@ -28,7 +28,7 @@ Version Control System is a software the tracks Source code changes and manages 
 <br>
 <br>
 
-#### How Version Control Systems solved the problems.
+# How Version Control Systems solved the problems.
 
 * Developers overwriting each others work - Two developers edited the same work on the drive. Version control system like git enabled each developer to have their own branch. During merging if there's any overwriting git highlights a conflict.
 * Nobody knew which folder contained the real working code. Cause remember a developer could take a file containing code, copy it, make a change and then save the file with a name to show which version it is. - Version control systems like git Repository hosts main branch that is clear and other separate branches  for experimental features.
