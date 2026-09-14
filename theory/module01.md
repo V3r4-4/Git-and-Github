@@ -1,8 +1,8 @@
-# Introduction to Version Control Systems
+# What is a Version Control System?
 
 Version Control System is a software the tracks Source code changes and manages the code.
 
-# A simple example of how the system development cycle works
+# A simple example of how the system development cycle works and where we need the Version Control Systems
 
     A school library needs a digital system so students can access e-books, renew borrowed books remotely, and search the library catalog. School management reaches out to a software development company, and they agree on a deal: the company gets five days to present a working prototype.
 
@@ -26,28 +26,48 @@ Version Control System is a software the tracks Source code changes and manages 
 
     The front-end phase is finished! After a quick client demo, the company collects their 20% milestone payment.
 
-# Problems developers faced that led to development of Version Control Systems?
+# Problems faced by developers
 
-* Saved their work in their local computers, which meant that if the computer was damaged the all changes and project was gone.
-* Manually created a copy of a file every time they made a change. The problem was the confusion they went through to identify which file version had specific change, What changes were made and who made them and at what time. This made the development process even slower.
-* Developers could overwrite each each others work. The developers passed the work they've worked on to other teammates using a floppy disk/CD.
-* The team Lead reviewed code either print out on paper or they had to walk to the developers work station to review their work.
+* Creating multiple versions of the project (e.g Front-end_v1, front-end_v2) to track changes. This caused confusion among developers trying to find out who made a change to a file, what change was made and why the change was made.
+* During use of local version control systems, developers stored and tracked changes to source code in one local computer, which meant if the computer was damaged the all changes and project was gone.
+* Team Lead reviewed code on paper or by going to each developer's workstation.
+* In reviewing code, Team Lead had to go through thousands lines of code to spot changes. 
+* Developers would make similar changes to same file ie overwriting each others work.
+* The developers passed the work they've worked on to other teammates using a floppy disk/CD.
+* Team Lead reviewed code printed out on paper or had to walk to the developer's workstation to review their work.
 
 <br>
 <br>
 <br>
 
 # How Version Control Systems solved the problems.
+* To solve the problems developers faced, severall Version Control Systems were created. Here are some ot the systems and how they worked to solve the problems:
+* <br>
 
-* Developers overwriting each others work - Two developers edited the same work on the drive. Version control system like git enabled each developer to have their own branch. During merging if there's any overwriting git highlights a conflict.
-* Nobody knew which folder contained the real working code. Cause remember a developer could take a file containing code, copy it, make a change and then save the file with a name to show which version it is. - Version control systems like git Repository hosts main branch that is clear and other separate branches  for experimental features.
-* Loss of history. Incase of a bug, nobody knew who wrote the code, who made the changes and why they made it.
-Git has git log/git blame which point out to the author-who made the change, timestamps-the time the change was made- and has commit message to show what changes were made.
-* Incase a developer made a mistake or tried out an experiment which led to losing the working project- It was difficult or rather impossible to reverse the working directory. In git, there git revert/git reset which helps restore the original working project.
-* Backing up a project in case the server crashed, In both local and centralized if the local computer or the server went down then the whole project got lost. But by using git, once the developer has cloned the whole project to their computers they don't lose it. In short, every developer or member of the team has a copy of the main project hence enough backup.
-* For code reviews where team leads had to review a developers code and to find changes, the team lead back then has to read thousands of lines of code to see changes. In git, It highlights changes made, If deletion was made it is highlighted in red and if something was added, it is highlighted in green.
+
+#### Source Code Control System (SCCS)
+    - It's a local Version Control System
+    - It was created in Bell Labs
+    - It ran on a single machine and tracked changes to individual files by storing original files and "deltas" differences.
+    - Replaced manually renaming backing up files and allowed developers to revert an individual file to an earlier date. MEANING: When we mentioned that every time developers made changes  to a file, they copied the previous files then made changes to one of the files.
+ <br>
+ <br>
+ 
+#### Apache Subversion(SVN)
+    -It is a centralized VCS
+    -It commit the entire directory as a/in a single commit in the  central server.
+ <br>
+ <br>
+ 
+#### Concurrent Version Control(CVC) - Multiple people would make multiple changes to one file
 <br>
 <br>
+
+#### Bitkeeper- It inspired the creation of git. Git works same as Bitkeeper.
+<br>
+<br>
+
+* 
 <br>
 
 # Evolution of Version Control Systems.
@@ -71,30 +91,5 @@ Git has git log/git blame which point out to the author-who made the change, tim
 #### Distributed Version Control System
         - In distributed Version Control Systems, the project, commits and changes are stored in each team member's computer as well the server. - It's a combination of both local and centralized version control. This is because the project, commits and history are stored in the server and the local computer of the developer so in case of crashing of either of them, There is backup of the project.
         - Each Developer gets to work on their own branch and later on the branches are merged.
-<br>
-<br>
- 
-# Version Control Systems created in the past before git and GitHub
-<br>
 
-#### Source Code Control System (SCCS)
-    - It's a local Version Control System
-    - It was created in Bell Labs
-    - It ran on a single machine and tracked changes to individual files by storing original files and "deltas" differences.
-    - Replaced manually renaming backing up files and allowed developers to revert an individual file to an earlier date. MEANING: When we mentioned that every time developers made changes  to a file, they copied the previous files then made changes to one of the files.
- <br>
- <br>
- 
-#### Apache Subversion(SVN)
-    -It is a centralized VCS
-    -It commit the entire directory as a/in a single commit in the  central server.
- <br>
- <br>
- 
-#### Concurrent Version Control(CVC) - Multiple people would make multiple changes to one file
-<br>
-<br>
 
-#### Bitkeeper- It inspired the creation of git. Git works same as Bitkeeper.
-<br>
-<br>
