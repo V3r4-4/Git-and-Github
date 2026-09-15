@@ -14,30 +14,6 @@ This is my personal learning journey. It serves as a step by step overview of ho
 * Intro to GitHub
 * Learn GitHub features
 * Hands-on practice
-  
-<br>
-<br>
-
-#### Here's the Repository structure:
-
-```text
-git-and-github-learning-journey/
-├── theory/            
-│   ├── module01/     #Introduction to Version control systems
-│   └── module02/     #Types of Version control systems
-│   └── module03/     #Introduction to Git
-│   └── module04/     #Learning about Git features
-│   └── module05/     #Introduction to GitHub
-│   └── module06/     #Learning about GitHub features
-├──hands-on 
-│   └── practice01/   #Practicing  Git features
-│   └── practice02/   #Practicing  Git features
-│   └── practice03/   #Practicing  GitHub features
-│   └── practice04/   #Practicing  GitHub features
-│   └── practice05    # #Trying it on a Front-end project
-├── .gitignore
-└── README.md
-```
 <br>
 <br>
 
