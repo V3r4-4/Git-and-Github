@@ -3,9 +3,9 @@ A Version Control System (VCS) is software that tracks and manages changes to yo
 <BR>
 
 ### What happens with and without version control systems?
-<BR>
 A school library hires a tech company to build a website where students can search for books and renew them online.
 Developer A and Developer B start working on the project at the same time:
+<BR>
 
 * **Without Version Control:** Both developers work on the same file at the same time. Developer A writes code for the search bar. Developer B writes code for the renewal page. When Developer B saves his file, he accidentally deletes Developer A's search bar code. Because there is no saved history, Developer A's work is lost completely.
 
@@ -14,8 +14,8 @@ Developer A and Developer B start working on the project at the same time:
 <BR>
 
 ### Why do Version Control Systems Exist?
-<BR>
 Before Version Control Systems (VCS), software development teams faced major challenges:
+<BR>
 
 * **Messy File Naming**: Developers created multiple project folders to track updates (for example, Front-end_v1, Front-end_v2). This made it hard to know who made a change, what was changed, or why.
 
