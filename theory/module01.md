@@ -3,7 +3,7 @@ A Version Control System (VCS) is software that tracks and manages changes to yo
 <BR>
 
 ### What happens with and without version control systems?
-<BR>`
+<BR>
 A school library hires a tech company to build a website where students can search for books and renew them online.
 Developer A and Developer B start working on the project at the same time:
 
