@@ -30,8 +30,8 @@ Before Version Control Systems (VCS), software development teams faced major cha
 <BR>
 
 ### How Version Control Systems Solved These Problems?
-<BR>
 Version control systems evolved through three main stages:
+<BR>
 
 * **Local VCS (Example: SCCS)**
     - Instead of manually copying folders like Front-end_v1 and Front-end_v2, local systems automatically tracked changes to individual files on a single computer. Developers could easily go back to an earlier version of any file if they made a mistake.
